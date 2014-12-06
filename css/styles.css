@@ -1,16 +1,13 @@
 /* Your Website Styles */
-
+body {
+  background: #85CEC2;
+}
 
 
 /* Gallery Stying */
-.gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
-}
-
-.gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
+a:hover{
+  color: #85CEC2;
+  font-variant: small-caps;
 }
 
 /*
@@ -20,16 +17,44 @@
   position: relative;
 }
 .gallery .item {
-  height: 400px;
+  background: #85CEC2;
   overflow: hidden;
   text-align: center;
-  background: #4d87e2;
 }
-.gallery .controls {
-  position: absolute;
+
+
+.controls {
+  padding: 2.5em;
   bottom: -120px;
   width: 100%;
   text-align: center;
+}
+
+
+img {
+  margin: 2em;
+  -webkit-transform: rotate(0deg);
+
+}
+
+header {
+  background: #4D4D4D;
+  -webkit-animation: space 360s infinite normal both linear;
+}
+
+nav, a {
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+.main-nav {
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  background: white;
 }
 
 .gallery .controls img {

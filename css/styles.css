@@ -1,6 +1,8 @@
 /* Your Website Styles */
 body {
-  background: #85CEC2;
+    background: #85CEC2;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -39,7 +41,7 @@ img {
 
 header {
   background: #4D4D4D;
-  -webkit-animation: space 360s infinite normal both linear;
+  
 }
 
 nav, a {
